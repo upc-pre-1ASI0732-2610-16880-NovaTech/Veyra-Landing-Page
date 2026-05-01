@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veyra</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&family=Konkhmer+Sleokchher&family=Lexend&family=Manrope:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/assets/styles/style.css" />
+</head>
+<body>
+<!-- Hero Section -->
+<header class="header">
+    <a href="#" class="logo">Veyra</a>
+    <div class="menu-wrapper">
+        <nav class="navbar">
+            <a href="#home" data-i18n="nav.home">Home</a>
+            <a href="#features" data-i18n="nav.features">Features</a>
+            <a href="#benefits" data-i18n="nav.benefits">Benefits</a>
+            <a href="#about" data-i18n="nav.about">About Us</a>
+            <a href="#plans" data-i18n="nav.plans">Plans</a>
+        </nav>
+        <div class="buttons">
+            <a href="https://brave-river-060406e0f.3.azurestaticapps.net/iam/sign-in" class="btn sign-in" data-i18n="nav.signin">Sign In</a>
+            <a href="https://brave-river-060406e0f.3.azurestaticapps.net" class="btn sign-up" data-i18n="nav.signup">Sign Up</a>
+        </div>
+    </div>
+    <button id="language-switcher" aria-label="Switch language">
+        <i class="fas fa-globe"></i>
+        <span id="lang-label">EN</span>
+        <i class="fas fa-chevron-down"></i>
+    </button>
+    <div id="menu-btn" class="fas fa-bars"></div>
+</header>
+<!-- Home Section -->
+<section class="home" id="home">
+    <div class="hero-content-wrapper">
+        <h1 data-i18n="hero.title">The Best Care is Always Connected</h1>
+        <p data-i18n="hero.subtitle">Veyra keeps you close to your loved ones' health and well-being, no matter the distance.</p>
+        <a href="https://brave-river-060406e0f.3.azurestaticapps.net" class="btn-home" data-i18n="hero.cta">Start now →</a> 
+    </div>
+    <div class="image-container">
+        <div class="home-image">
+            <img src="public/assets/images/nurse-pushing-senior-woman-in-wheelchair.jpg" alt="A smiling nurse in blue uniform is gently pushing a happy senior woman in a wheelchair down a bright, sunlit hallway near a large window, suggesting assisted living or home care.">
+        </div>
+    </div>
+</section>
+<!-- What we offer Section -->
+<section class="what-we-offer"> 
+    <h1 class="heading" data-i18n="services.heading">What we offer</h1>
+    <div class="container">
+        <div class="offer-box">
+            <div class="icon-container"><i class="fas fa-house-user"></i></div>
+            <h3 data-i18n="services.card1.title">Home Health Care</h3>
+            <p data-i18n="services.card1.text">Veyra is a digital platform designed for assisted living facilities to provide transparent, secure, and efficient management of elder care. We bridge the gap between caregivers and families, ensuring everyone stays connected and informed.</p>
+        </div>
+        <div class="offer-box">
+            <div class="icon-container"><i class="fas fa-hospital-user"></i></div>
+            <h3 data-i18n="services.card2.title">Pediatric Care</h3>
+            <p data-i18n="services.card2.text">Veyra is a platform that simplifies clinical management and communication for elder care. It’s a bridge between families and caregivers, ensuring residents receive the best possible care while providing peace of mind.</p>
+        </div>
+        <div class="offer-box">
+            <div class="icon-container"><i class="fas fa-user-alt"></i></div>
+            <h3 data-i18n="services.card3.title">Companion Care</h3>
+            <p data-i18n="services.card3.text">Ensure your loved one receives the attention and care needed, while giving you peace of mind. Veyra provides a secure portal for family members to stay informed about their loved one's health and daily activities, anytime, anywhere.</p>
+        </div>
+        <div class="offer-box">
+            <div class="icon-container"><i class="fas fa-user-md"></i></div>
+            <h3 data-i18n="services.card4.title">Conditions Treated</h3>
+            <p data-i18n="services.card4.text">Our system allows caregivers to manage a variety of patient conditions, including medication schedules, treatment plans, and health reports, all within a single, integrated platform.</p>
+        </div>
+    </div>
+</section>
+<!-- Features Section -->
+<section class="features-accordion" id="features">
+    <span class="section-button-title" data-i18n="features.button">Features</span>
+    <h2 class="section-heading-split">
+        <span class="highlight-blue" data-i18n="features.heading1">The Key Features</span> <span data-i18n="features.heading2">of Our Platform</span>
+    </h2>
+    <div class="features-container-split">
+        <div class="video-container-split">
+            <iframe src="https://www.youtube.com/embed/DCPqVW0C2Po" title="Veyra Features Video" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="accordion-container">
+            <div class="accordion-item">
+                <div class="accordion-title">
+                    <h4 data-i18n="features.accordion1.title">Seamless Communication</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="accordion-content">
+                    <p data-i18n="features.accordion1.text">Bridge the gap between caregivers and families with real-time updates and a dedicated communication channel. This reduces calls and manual inquiries, fostering trust and transparency.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-title">
+                    <h4 data-i18n="features.accordion2.title">Real-Time Health Monitoring</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="accordion-content">
+                    <p data-i18n="features.accordion2.text">Ensure a higher standard of care with secure, immediate access to vital health information. This allows for proactive monitoring and better-informed decisions, contributing to a more comfortable and secure environment for residents.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-title">
+                    <h4 data-i18n="features.accordion3.title">Streamlined Clinical Management</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="accordion-content">
+                    <p data-i18n="features.accordion3.text">Move beyond fragmented data and paper records. Veyra centralizes clinical information, automating tasks like medication schedules and treatment tracking to improve efficiency and reduce errors.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-title">
+                    <h4 data-i18n="features.accordion4.title">Comprehensive Reporting & Analytics</h4>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="accordion-content">
+                    <p data-i18n="features.accordion4.text">Our advanced reporting tools give you deep insights into care quality, staff performance, and resident well-being, helping institutions make data-driven decisions and enhance their services.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Benefits Section -->
+<section class="benefits-section" id="benefits">
+    <span class="section-button-title" data-i18n="benefits.button">Benefits</span>
+    <h2 class="section-heading-split">
+        <span class="highlight-blue" data-i18n="benefits.heading1">The Veyra Advantage:</span> <span data-i18n="benefits.heading2">Benefits for a New Era of Elder Care</span>
+    </h2>
+    <div class="benefits-grid-image">
+        <div class="benefit-card-image">
+            <div class="card-image-container">
+                <img src="public/assets/images/nurse-consulting-with-senior-woman-and-daughter.jpg" alt="A smiling nurse in blue scrubs is sitting on a sofa and writing on a clipboard while consulting with an older adult woman and a younger female relative, all smiling and engaged in a friendly discussion about care options.">
+            </div>
+            <div class="card-content">
+                <h3 data-i18n="benefits.card1.title">Enhanced Communication</h3>
+                <p data-i18n="benefits.card1.text">Bridge the gap between caregivers and families with real-time updates and a dedicated communication channel. This reduces calls and manual inquiries, fostering trust and transparency.</p>
+            </div>
+        </div>
+        <div class="benefit-card-image">
+            <div class="card-image-container">
+                <img src="public/assets/images/medical-staff-monitoring-patient-data-on-screens.jpg" alt="A view over the shoulder of a male medical worker, wearing scrubs and a mask, looking at two computer screens displaying critical patient data, including vital signs and graph trends, in a busy hospital hallway.">
+            </div>
+            <div class="card-content">
+                <h3 data-i18n="benefits.card2.title">Streamlined Clinical Management</h3>
+                <p data-i18n="benefits.card2.text">Move beyond fragmented data and paper records. Veyra centralizes clinical information, automating tasks like medication schedules and treatment tracking to improve efficiency and reduce errors.</p>
+            </div>
+        </div>
+        <div class="benefit-card-image">
+            <div class="card-image-container">
+                <img src="public/assets/images/healthcare-team-with-digital-medical-overlay.jpg" alt="A team of doctors and nurses standing with their backs to the camera, looking at a complex, blue digital display with interconnecting health and medical icons like a heart, syringe, and ambulance, representing advanced healthcare technology and network.">
+            </div>
+            <div class="card-content">
+                <h3 data-i18n="benefits.card3.title">Improved Resident Well-being</h3>
+                <p data-i18n="benefits.card3.text">Ensure a higher standard of care with secure, immediate access to vital health information. This allows for proactive monitoring and better-informed decisions, contributing to a more comfortable and secure environment for residents.</p>
+            </div>
+        </div>
+        <div class="benefit-card-image">
+            <div class="card-image-container">
+                <img src="public/assets/images/nurse-with-seniors-playing-board-game-at-nursing-home.jpg" alt="A female nurse is cheering on a delighted senior woman who gives a thumbs-up while sitting with an elderly man at a small table, playing a board game in a brightly lit residential care setting.">
+            </div>
+            <div class="card-content">
+                <h3 data-i18n="benefits.card4.title">Increased Peace of Mind</h3>
+                <p data-i18n="benefits.card4.text">Give families the security of knowing their loved ones are well-cared for. Our secure portal provides instant access to daily reports and health statuses, alleviating anxiety and building confidence in your services.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About Us Section -->
+<section class="about-us" id="about">
+    <div class="container-about">
+        <div class="content-about">
+            <span class="section-button-title" data-i18n="about.button">About Us</span>
+            <h2 class="section-heading-split">
+                <span class="highlight-blue" data-i18n="about.heading1">NovaPeru Tech:</span> <span data-i18n="about.heading2">Transforming Elder Care with Trust and Innovation</span>
+            </h2>
+            <p data-i18n="about.p1">At NovaPeru Tech, we believe in a new era of elder care. We provide a platform that combines advanced technology with a human-centered approach, ensuring families have secure, up-to-date access to information about their loved ones, and institutions have advanced tools to optimize their processes.</p>
+            <p data-i18n="about.p2">Our purpose is to create a digital bridge between families and caregivers, fostering transparency and peace of mind.</p>
+            <ul>
+                <li><i class="fas fa-check-circle"></i><span data-i18n="about.list1"> Seamless Communication: Direct and secure channels for families and staff.</span></li>
+                <li><i class="fas fa-check-circle"></i><span data-i18n="about.list2"> Real-Time Insights: Instant access to clinical records, treatments, and daily activities.</span></li>
+                <li><i class="fas fa-check-circle"></i><span data-i18n="about.list3"> Enhanced Security: Robust data protection for sensitive health information.</span></li>
+            </ul>
+        </div>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/-tBBZ8lwbts" title="Veyra About Us Video" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+</section>
+<!-- Our Team Section -->
+<section class="our-team">
+    <h1 class="heading" data-i18n="team.heading">Our Team</h1>
+    <div class="team-grid">
+        <div class="team-member">
+            <img src="public/assets/images/veyra-team-member-" alt="">
+            <h3></h3>
+            <p data-i18n="team.role">Software Engineer</p>
+            <span data-i18n="team.member1">Software Engineering student with a passion for cybersecurity and AI. My main strength is leading teams effectively. I am a perseverant and dedicated individual, always ready to learn and deliver a successful project.</span>
+        </div>
+        <div class="team-member">
+            <img src="public/assets/images/veyra-team-member-renzo-icon.jpg" alt="Renzo Miguel Llerena Delgado">
+            <h3>Renzo Miguel Llerena Delgado</h3>
+            <p data-i18n="team.role">Software Engineer</p>
+            <span data-i18n="team.member2"></span>
+        </div>
+        <div class="team-member">
+            <img src="public/assets/images/veyra-team-member-" alt="Professional portrait icon of Veyra team member .">
+            <h3></h3>
+            <p data-i18n="team.role">Software Engineer</p>
+            <span data-i18n="team.member7"></span>
+        </div>
+        <div class="team-member">
+            <img src="public/assets/images/veyra-team-member-" alt="Professional portrait icon of Veyra team member ">
+            <h3></h3>
+            <p data-i18n="team.role">Software Engineer</p>
+            <span data-i18n="team.member3">Software Engineering student experienced in full-stack development with React, TypeScript, Spring Boot, and MySQL. Strong in building scalable applications using DDD and RESTful APIs, with interest in cloud computing, data analysis, and agile development practices.</span>
+        </div>
+        <div class="team-member">
+            <img src="public/assets/images/veyra-team-member-" alt="Professional portrait icon of Veyra team member ">
+            <h3></h3>
+            <p data-i18n="team.role">Software Engineer</p>
+            <span data-i18n="team.member4"></span>
+        </div>
+        <div class="team-member">
+            <img src="public/assets/images/veyra-team-member-" alt="Professional portrait icon of Veyra team member ">
+            <h3></h3>
+            <p data-i18n="team.role">Software Engineer</p>
+            <span data-i18n="team.member5"></span>
+        </div>
+    </div>
+</section>
+<!-- Plans Section -->
+<section class="plans" id="plans">
+    <span class="section-button-title" data-i18n="plans.button">Plans</span>
+    <h2 class="section-heading-split">
+        <span class="highlight-blue" data-i18n="plans.heading1">Choose the Plan</span> <span data-i18n="plans.heading2">that Fits Your Needs</span>
+    </h2>
+
+    <div class="plan-toggle">
+        <button class="toggle-btn active" data-plan="monthly" data-i18n="plans.monthly">Monthly</button>
+        <button class="toggle-btn" data-plan="annually" data-i18n="plans.annually">Annually</button>
+    </div>
+    <div class="plans-container">
+        <div class="plan-card" data-plan-type="family">
+            <h3 data-i18n="plans.family.title">Family Plan</h3>
+            <p class="plan-description" data-i18n="plans.family.description">The perfect plan for families looking to oversee and manage the care of their elders at home, with the peace of mind that comes from knowing everything is under control.</p>
+            <div class="price">
+                <p class="monthly-price" data-i18n="plans.family.price.monthly">$30 <span data-i18n="plans.family.price.monthly_unit">/Per month</span></p>
+                <p class="annually-price" style="display: none;" data-i18n="plans.family.price.annually">$300 <span data-i18n="plans.family.price.annually_unit">/Per year</span></p>
+            </div>
+            <p class="annual-save" style="display: none;" data-i18n="plans.save">Save 15% annually</p>
+            <button class="btn" data-i18n="plans.family.cta">Get Family Plan</button>
+            <hr class="plan-divider">
+            <div class="features">
+                <h4 data-i18n="plans.features_heading">Features</h4>
+                <ul>
+                    <li><i class="fas fa-check"></i><span data-i18n="plans.family.feature1"> One family account with access for multiple caregivers.</span></li>
+                    <li><i class="fas fa-check"></i><span data-i18n="plans.family.feature2"> Medication logging with alarm/schedule reminders.</span></li>
+                    <li><i class="fas fa-check"></i><span data-i18n="plans.family.feature3"> Detailed daily care history.</span></li>
+                    <li><i class="fas fa-check"></i><span data-i18n="plans.family.feature4"> Mobile and web access to view schedules and caregiver notes.</span></li>
+                    <li><i class="fas fa-check"></i><span data-i18n="plans.family.feature5"> Standard email support with a 48-72 hour response time.</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="plan-card highlight-card" data-plan-type="nursing">
+            <h3 data-i18n="plans.nursing.title">Nursing Home Plan</h3>
+            <p class="plan-description" data-i18n="plans.nursing.description">A robust and comprehensive solution for care institutions looking to optimize management, improve communication, and elevate their standard of care.</p>
+            <div class="price">
+                <p class="monthly-price" data-i18n="plans.nursing.price.monthly">$300 <span data-i18n="plans.nursing.price.monthly_unit">/Per month</span></p>
+                <p class="annually-price" style="display: none;" data-i18n="plans.nursing.price.annually">$3000 <span data-i18n="plans.nursing.price.annually_unit">/Per year</span></p>
+            </div>
+            <p class="annual-save" style="display: none;" data-i18n="plans.save">Save 15% annually</p>
+            <button class="btn" data-i18n="plans.nursing.cta">Get Nursing Home Plan</button>
+            <hr class="plan-divider">
+            <div class="features">
+                <h4 data-i18n="plans.features_heading">Features</h4>
+                <ul>
+                    <li><i class="fas fa-check"></i><span data-i18n="plans.nursing.feature1"> Unlimited resident registration.</span></li>
+                    <li><i class="fas fa-check"></i><span data-i18n="plans.nursing.feature2"> Medical history and medication management.</span></li>
+                    <li><i class="fas fa-check"></i><span data-i18n="plans.nursing.feature3"> Multi-user accounts with specific roles (admin, nursing, administrative).</span></li>
+                    <li><i class="fas fa-check"></i><span data-i18n="plans.nursing.feature4"> Staff schedule and shift management + attendance tracking.</span></li>
+                    <li><i class="fas fa-check"></i><span data-i18n="plans.nursing.feature5"> Advanced reports and dashboards (usage, medication, incidents).</span></li>
+                    <li><i class="fas fa-check"></i><span data-i18n="plans.nursing.feature6"> Basic API integration and data export for accounting.</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Testimonials and CTA Section -->
+<section class="testimonials-cta">
+    <div class="container-reviews">
+        <h3 class="reviews-heading" data-i18n="testimonials.heading">What our users are saying</h3>
+        <div class="review-grid">
+            <div class="review-card">
+                <div class="review-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="review-text" data-i18n="testimonials.review1">"Veyra has transformed the way I care for my parents. The peace of mind I get from knowing they are well is priceless."</p>
+                <p class="reviewer-name">- Ana G.</p>
+            </div>
+            <div class="review-card">
+                <div class="review-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="review-text" data-i18n="testimonials.review2">"The interface is very intuitive and the notifications keep me on top of everything. Highly recommended!"</p>
+                <p class="reviewer-name">- Carlos R.</p>
+            </div>
+            <div class="review-card">
+                <div class="review-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p class="review-text" data-i18n="testimonials.review3">"Excellent tool for managing my grandfather's health. The support team is very attentive."</p>
+                <p class="reviewer-name">- Sofía L.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-cta">
+        <div class="cta-content">
+            <h2 class="cta-heading" data-i18n="cta.heading">It's time to connect and care for your loved ones.</h2>
+            <a href="#" class="btn subscribe-btn" data-i18n="cta.button">Subscribe</a>
+        </div>
+    </div>
+</section>
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-grid">
+        <div class="footer-brand">
+            <div class="footer-logo">
+                <img src="public/assets/images/the-logo-of-veyra.png" alt="The official logo of Veyra.">
+                <p>Veyra</p>
+            </div>
+            <p class="footer-tagline" data-i18n="footer.tagline">Connecting families and caregivers.</p>
+            <div class="footer-socials">
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="footer-col">
+            <h4 data-i18n="footer.platform.heading">Platform</h4>
+            <a href="#home" data-i18n="nav.home">Home</a>
+            <a href="#features" data-i18n="nav.features">Features</a>
+            <a href="#benefits" data-i18n="nav.benefits">Benefits</a>
+            <a href="#about" data-i18n="nav.about">About Us</a>
+            <a href="#plans" data-i18n="nav.plans">Plans</a>
+        </div>
+        <div class="footer-col">
+            <h4 data-i18n="footer.company.heading">Company</h4>
+            <a href="#" data-i18n="footer.company.link1">About Us</a>
+            <a href="#" data-i18n="footer.company.link2">Help Center</a>
+            <a href="#" data-i18n="footer.company.link3">Community</a>
+        </div>
+        <div class="footer-col">
+            <h4 data-i18n="footer.contact.heading">Contact</h4>
+            <a href="mailto:contacto@metasoft.com"><i class="fas fa-envelope"></i><span>contacto@metasoft.pe</span></a>
+            <p><i class="fas fa-phone"></i><span data-i18n="footer.contact.phone">+1 (555) 482-9599</span></p>
+            <p><i class="fas fa-map-marker-alt"></i><span data-i18n="footer.contact.location">UPC Lima - Perú</span></p>
+        </div>
+    </div>
+    <div class="copyright">
+        <p id="footer-copyright"></p>
+        <div class="legal-links">
+            <button class="drawer-trigger" data-drawer="drawer-tos" data-i18n="footer.legal.terms">Terms of Service</button>
+            <button class="drawer-trigger" data-drawer="drawer-privacy" data-i18n="footer.legal.privacy">Privacy Policy</button>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Scroll To Top Button -->
+<button id="scroll-top-btn" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+
+<!-- Legal Drawer Overlay -->
+<div id="drawer-overlay"></div>
+
+<!-- Terms of Service Drawer -->
+<div class="legal-drawer" id="drawer-tos" role="dialog" aria-modal="true" aria-label="Terms of Service" data-src="public/sections/tos.html">
+    <div class="drawer-header">
+        <div class="drawer-title-group">
+            <h2 data-i18n="footer.legal.terms">Terms of Service</h2>
+            <span class="drawer-date"><span data-lang="en">Last updated: April 2026</span><span data-lang="es">Última actualización: Abril 2026</span></span>
+        </div>
+        <div class="drawer-header-actions">
+            <a href="public/sections/tos.html" target="_blank" class="drawer-external-link" aria-label="Open full page"><i class="fas fa-external-link-alt"></i></a>
+            <button class="drawer-close" aria-label="Close"><i class="fas fa-times"></i></button>
+        </div>
+    </div>
+    <div class="drawer-body"><span class="drawer-loader"><i class="fas fa-spinner fa-spin"></i></span></div>
+</div>
+
+<!-- Privacy Policy Drawer -->
+<div class="legal-drawer" id="drawer-privacy" role="dialog" aria-modal="true" aria-label="Privacy Policy" data-src="public/sections/policies.html">
+    <div class="drawer-header">
+        <div class="drawer-title-group">
+            <h2 data-i18n="footer.legal.privacy">Privacy Policy</h2>
+            <span class="drawer-date"><span data-lang="en">Last updated: April 2026</span><span data-lang="es">Última actualización: Abril 2026</span></span>
+        </div>
+        <div class="drawer-header-actions">
+            <a href="public/sections/policies.html" target="_blank" class="drawer-external-link" aria-label="Open full page"><i class="fas fa-external-link-alt"></i></a>
+            <button class="drawer-close" aria-label="Close"><i class="fas fa-times"></i></button>
+        </div>
+    </div>
+    <div class="drawer-body"><span class="drawer-loader"><i class="fas fa-spinner fa-spin"></i></span></div>
+</div>
+
+<!-- JavaScript Dependencies -->
+<script src="public/assets/scripts/translations/en.js"></script>
+<script src="public/assets/scripts/translations/es.js"></script>
+<script src="public/assets/scripts/main.js"></script>
+
+</body>
+</html>
