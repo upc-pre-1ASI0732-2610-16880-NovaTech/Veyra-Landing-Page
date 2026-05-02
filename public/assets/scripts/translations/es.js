@@ -87,7 +87,7 @@ const translationsES = {
     "team": {
         "heading": "Nuestro Equipo",
         "role": "Ingeniero de Software",
-        "member1": "Estudiante de Ingeniería de Software con pasión por la ciberseguridad y la IA. Mi principal fortaleza es liderar equipos de manera efectiva. Soy una persona perseverante y dedicada, siempre lista para aprender y entregar un proyecto exitoso.",
+        "member1": "Cuento con una base sólida en desarrollo web full-stack utilizando Angular, Spring Boot, Java, TypeScript, JavaScript, HTML5 y CSS3. Tengo experiencia en diseño orientado a objetos, arquitectura RESTful y desarrollo de APIs con Swagger, además de control de versiones con Git y GitHub y metodologías ágiles.",
         "member2": "Estudiante de Ingeniería de Software enfocado en crear soluciones eficientes y escalables. Destaco por mi rápida adaptación, trabajo en equipo y proactividad. Resuelvo problemas complejos mediante código limpio, respaldado por sólidas bases en C++ y Python.",
         "member3": "Estudiante de Ingeniería de Software con experiencia en desarrollo web y móvil. Enfocado en construir sistemas escalables con buenas prácticas de arquitectura y tecnologías modernas. Apasionado por la innovación y la creación de soluciones digitales con impacto.",
         "member4": "Un individuo puntual, responsable y orientado a objetivos con experiencia en gestión de proyectos y desarrollo web. Estoy enfocado en contribuir con mis conocimientos para que este proyecto sea un éxito.",
