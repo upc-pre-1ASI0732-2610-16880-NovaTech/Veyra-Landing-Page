@@ -87,7 +87,7 @@ const translationsEN = {
     "team": {
         "heading": "Our Team",
         "role": "Software Engineer",
-        "member1": "Software Engineering student with a passion for cybersecurity and AI. My main strength is leading teams effectively. I am a perseverant and dedicated individual, always ready to learn and deliver a successful project.",
+        "member1": "I have a solid foundation in full-stack web development using Angular, Spring Boot, Java, TypeScript, JavaScript, HTML5, and CSS3. I am experienced in object-oriented design, RESTful architecture, and API development with Swagger, as well as version control with Git and GitHub and agile methodologies.",
         "member2": "Software Engineering student focused on creating efficient and scalable solutions. I excel at adapting quickly, teamwork, and proactivity. I solve complex problems using clean code, backed by a solid foundation in C++ and Python.",
         "member3": "Software Engineering student with experience in web and mobile development. Focused on building scalable systems using modern technologies and best architecture practices. Passionate about innovation and creating impactful digital solutions.",
         "member4": "A punctual, responsible, and goal-oriented individual with experience in project management and web development. I'm focused on contributing my knowledge to make this project a success.",
